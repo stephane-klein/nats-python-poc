@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  nats:
+    image: nats:2.9.14
+    command: --jetstream --store_dir /data/
+    ports:
+      # 4222 is for clients.
+      - 4222:4222
+      # 8222 is an HTTP management port for information reporting.
+      - 8222:8222
+    volumes:
+      - ./volume/:/data/
