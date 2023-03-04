@@ -1,3 +1,8 @@
+Ressources:
+
+- [NATS - Python3 Client for Asyncio](https://github.com/nats-io/nats.py)
+- [Learn NATS by Example](https://natsbyexample.com/)
+
 Install
 
 ```sh
@@ -22,4 +27,26 @@ $ nats sub ">"
 
 ```
 $ nats pub hello worldaeiua
+```
+
+## Python walkthrough
+
+```sh
+$ pip install -r requirememts.txt
+```
+
+```
+$ python read_pull.py
+```
+
+In another shell session:
+
+```
+$ python publish.py
+```
+
+Log:
+
+```
+Msg: hello world 2023-03-04T09:59:10.572252
 ```
