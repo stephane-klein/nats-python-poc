@@ -1,7 +1,7 @@
 Ressources:
 
 - [NATS - Python3 Client for Asyncio](https://github.com/nats-io/nats.py)
-- [Learn NATS by Example](https://natsbyexample.com/)
+- [Learn NATS by Example](https://natsbyexample.com/) (although it lacks examples in Python, this documentation is useful. I advise you not to hesitate to read the Go examples to fully understand how Nats works)
 
 Install
 
