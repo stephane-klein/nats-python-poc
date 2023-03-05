@@ -50,3 +50,17 @@ Log:
 ```
 Msg: hello world 2023-03-04T09:59:10.572252
 ```
+
+## Development tips
+
+When I tinkering python script.
+
+```
+$ pip install watchdog==2.3.1
+```
+
+```
+$ watchmedo auto-restart -p read_pull.py ./read_pull.py
+```
+
+because of that, `read_pull.py` auto restart when I update `read_pull.py` file.
